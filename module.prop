@@ -1,0 +1,7 @@
+id=fix-odm-oplus-pad2pro
+name=ODM Fixes for OnePlus Pad 2 Pro
+version=v1.0
+versionCode=100
+author=jjhitel
+description=Fix ODM incompatibility for OnePlus Pad 2 Pro on OxygenOS 15.
+updateJson=https://raw.githubusercontent.com/jjhitel/fix-odm-oplus-pad2pro/main/update.json
