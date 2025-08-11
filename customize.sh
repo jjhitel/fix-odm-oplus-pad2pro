@@ -11,13 +11,9 @@ fi
 
 # Define source and destination paths
 SRC="/odm/firmware/wireless_pen/24976/cps8601_firmware.bin"
-MODPATH="$MODPATH/system/odm/firmware/wireless_pen/24926"
-DST="$MODPATH/cps8601_firmware.bin"
+DST="$MODPATH/odm/firmware/wireless_pen/24926/cps8601_firmware.bin"
 
 # Copy firmware into the module's overlay path
-ui_print "- Preparing firmware overlay..."
-mkdir -p "$MODPATH"
-
 if [ -f "$SRC" ]; then
   cp -af "$SRC" "$DST"
   ui_print "- Firmware copied to module path successfully."
@@ -25,3 +21,5 @@ else
   ui_print "! WARNING: Source firmware not found at $SRC"
   ui_print "! The module may not work correctly."
 fi
+
+set_perm_recursive "$MODPATH"/odm/firmware 0 0 0755 0644 u:object_r:vendor_configs_file:s0
