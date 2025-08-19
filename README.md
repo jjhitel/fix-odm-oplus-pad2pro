@@ -1,6 +1,6 @@
 # fix-odm-oplus-pad2pro
 
-Fix ODM incompatibility for OnePlus Pad 2 Pro on OxygenOS 15.
+Fix stylus issues on OnePlus ~~Pad 2 Pro~~ devices after installing a different regional ROM.
 
 [Download](https://github.com/jjhitel/fix-odm-oplus-pad2pro)
 
