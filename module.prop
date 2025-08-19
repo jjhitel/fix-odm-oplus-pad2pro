@@ -1,7 +1,7 @@
 id=fix-odm-oplus-pad2pro
-name=ODM Fixes for OnePlus Pad 2 Pro
-version=v1.1
-versionCode=101
+name=Stylus Fixes for OnePlus
+version=v1.2
+versionCode=102
 author=jjhitel
-description=Fix ODM incompatibility for OnePlus Pad 2 Pro on OxygenOS 15.
+description=Fix stylus issues on OnePlus devices after installing a different regional ROM.
 updateJson=https://raw.githubusercontent.com/jjhitel/fix-odm-oplus-pad2pro/main/update.json
